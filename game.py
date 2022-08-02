@@ -3,7 +3,7 @@ from random import randint
 los=randint(0,20)
 odp=-1
 i=0
-money=1
+money=0
 
 while odp!=los:
     odp=int(input("Podaj odpowiedź"))
