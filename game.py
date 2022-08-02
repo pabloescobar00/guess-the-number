@@ -15,9 +15,12 @@ while odp!=los:
 money+=1
 
 if i>=15:
+    money+=1
     print("Nie poradziłeś sobie wybitnie")
 elif i>=10:
+    money+=2
     print("nie jest źle ale może być lepiej")
 else:
+    money+=3
     print("Świetnie sobie poradziłeś")
 print("Gratulacje odgadłeś liczbe", "Liczba prób: ", i, "Pieniądze: ", money,)
