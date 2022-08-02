@@ -1,4 +1,3 @@
-from imp import load_source
 from random import randint
 
 los=randint(0,20)
