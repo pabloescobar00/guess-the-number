@@ -24,4 +24,4 @@ elif i>=10:
 else:
     money+=3
     print("Świetnie sobie poradziłeś")
-print("Gratulacje odgadłeś liczbe", nazwa,  "Liczba prób: ", i, "Pieniądze: ", money,)
+print("Gratulacje odgadłeś wylosowaną liczbe", nazwa,  "Liczba prób: ", i, "Pieniądze: ", money,)
