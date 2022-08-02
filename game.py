@@ -13,4 +13,11 @@ while odp!=los:
     elif odp>los:
         print("Wylosowana liczba jest mniejsza od Twojej odpowiedzi")
 money+=1
+
+if i>=15:
+    print("Nie poradziłeś sobie wybitnie")
+elif i>=10:
+    print("nie jest źle ale może być lepiej")
+else:
+    print("Świetnie sobie poradziłeś")
 print("Gratulacje odgadłeś liczbe", "Liczba prób: ", i, "Pieniądze: ", money,)
