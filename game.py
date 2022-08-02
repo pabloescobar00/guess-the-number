@@ -2,14 +2,12 @@ from random import randint
 
 los=randint(0,20)
 odp=-1
-p=5
 i=0 #ilość prób
 money=0
 
 while odp!=los:
     odp=int(input("Podaj odpowiedź"))
     i+=1
-    p+=1
     if odp<los:
         print("Wylosowana liczba jest większa od Twojej odpowiedzi")
     elif odp>los:
