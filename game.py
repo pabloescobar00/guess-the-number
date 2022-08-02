@@ -6,11 +6,11 @@ i=0
 money=0
 
 while odp!=los:
-    odp=int(input("Give the answer"))
+    odp=int(input("Podaj odpowiedź"))
     i+=1
     if odp<los:
-        print("The drawn number is greater than your answer")
+        print("Wylosowana liczba jest większa od Twojej odpowiedzi")
     elif odp>los:
-        print("The drawn number is less than your answer")
+        print("Wylosowana liczba jest mniejsza od Twojej odpowiedzi")
 money+=1
-print("Congratulations, you guessed the number", "Your number of attempts: ", i, "Your money: ", money)
+print("Gratulacje odgadłeś liczbe", "Liczba prób: ", i, "Pieniądze: ", money)
