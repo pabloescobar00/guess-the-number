@@ -2,7 +2,7 @@ from random import randint
 
 los=randint(0,20)
 odp=-1
-i=0
+i=0 #ilość prób
 money=0
 
 while odp!=los:
