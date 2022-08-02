@@ -4,9 +4,10 @@ los=randint(0,20)
 odp=-1
 i=0 #ilość prób
 money=0
+nazwa=input("Jak masz na imie ")
 
 while odp!=los:
-    odp=int(input("Podaj odpowiedź"))
+    odp=int(input("Podaj odpowiedź "))
     i+=1
     if odp<los:
         print("Wylosowana liczba jest większa od Twojej odpowiedzi")
@@ -23,4 +24,4 @@ elif i>=10:
 else:
     money+=3
     print("Świetnie sobie poradziłeś")
-print("Gratulacje odgadłeś liczbe", "Liczba prób: ", i, "Pieniądze: ", money,)
+print("Gratulacje odgadłeś liczbe", nazwa,  "Liczba prób: ", i, "Pieniądze: ", money,)
