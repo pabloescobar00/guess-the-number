@@ -4,24 +4,24 @@ los=randint(0,20)
 odp=-1
 i=0 #ilość prób
 money=0
-nazwa=input("Jak masz na imie ")
+nazwa=input("What's your name: ")
 
 while odp!=los:
-    odp=int(input("Podaj odpowiedź "))
+    odp=int(input("Enter the answer "))
     i+=1
     if odp<los:
-        print("Wylosowana liczba jest większa od Twojej odpowiedzi")
+        print("The drawn number is greater than your answer")
     elif odp>los:
-        print("Wylosowana liczba jest mniejsza od Twojej odpowiedzi")
+        print("The drawn number is less than your answer")
 money+=1
 
 if i>=15:
     money+=1
-    print("Nie poradziłeś sobie wybitnie")
+    print("You didn't do very well")
 elif i>=10:
     money+=2
-    print("nie jest źle ale może być lepiej")
+    print("it's not bad but it could be better")
 else:
     money+=3
-    print("Świetnie sobie poradziłeś")
-print("Gratulacje odgadłeś wylosowaną liczbe", nazwa,  "Liczba prób: ", i, "Pieniądze: ", money,)
+    print("You did great")
+print("Congratulations, you have guessed the drawn number", nazwa,  "Number of tries: ", i, "Money: ", money,)
